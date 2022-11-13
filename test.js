@@ -21,3 +21,10 @@
 
 // console.log("your password: ", yourPass)
 
+// function copytext() {
+//     var copyText = document.getElementById("copied1");
+//     copyText.select();
+//     copyText.setSelectionRange(0, 99999);
+//     navigator.clipboard.write(copyText.value);
+//     alert("Copied to clipboard:" + copyText.value)
+// }

@@ -105,6 +105,7 @@ body {
     font-size: 2rem;
     text-align: center;
     text-indent: 10px;
+    color: #9ef01a;
 }
 
 /* copy content */
@@ -133,3 +134,25 @@ body {
     background: #22333b;
 }
 
+/* footer */
+
+#author {
+    color: #70e000;
+
+}
+
+.foot-btn {
+    margin-top: 0px;
+    position: relative;
+    top: -15px;
+    margin-left: 100px;
+    margin-right: auto;
+    width: 150px;
+    height: 20px;
+    background-color: #006400;
+    border: none;
+    border-radius: 6px;
+}
+.foot-btn:active {
+    background-color: #d90429;
+}
