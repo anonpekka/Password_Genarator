@@ -1,0 +1,135 @@
+/* fonts imported.... */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+    margin: 0;
+    background: #1F2937;
+}
+
+.password-generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title-portion {
+    width: 700px;
+    height: 200px;
+    margin-top: 60px;
+}
+.title1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    position: relative;
+    top: 0px;
+    color: white;
+}
+.title2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    top: 0px;
+    color: #4ADF86;
+}
+.para {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: -10px;
+    color: #D5D4D8;
+}
+.passwords {
+    display: flex;
+    flex-direction: row;
+}
+#copied1, #copied2 {
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border: 0px solid black;
+    width: 300px;
+    height: 45px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #55F991;
+    text-align: center;
+    line-height: 38px;
+    
+}
+
+
+.generate-btn {
+    border: none;
+    width: 350px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    right: 175px;
+}
+.pass-btn {
+    width: 280px;
+    height: 40px;
+    background: #10B981;
+    border: 1px solid #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: medium;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.pass-btn:active {
+    background: #1b4332;
+    border: 1px solid white;
+}
+.password-screen {
+    /* border: 2px solid red ; */
+    width: 700px;
+    height: 80px;
+    margin-top: 35px;
+}
+
+#line-el {
+    border: 0px solid #2F3E53;
+    border-bottom: 2px solid #2F3E53;
+    font-size: 2rem;
+    text-align: center;
+    text-indent: 10px;
+}
+
+/* copy content */
+.copycontent {
+    display: flex;
+    flex-direction: row;
+}
+
+.copy-btn {
+    margin-left: 45px;
+    margin-right: 45px;
+    border: 0px solid black;
+    width: 300px;
+    height: 45px;
+    background: #3f37c9;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: black;
+    text-align: center;
+    line-height: 38px;
+}
+
+.copy-btn:active {
+    background: #22333b;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Your Password</title>
+    <link rel="shortcut icon" href="images/padlock.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Meganathan">
+</head>
+<body>
+    <div class="password-generator">
+        <div class="title-portion">
+            <h1>
+                <span class="title1"> Generate a </span> <br>
+                <span class="title2">random password</span> 
+            </h1>
+            <p class="para">
+                Never use a insecure password again...
+            </p>
+        </div>
+        <div class="generate-btn">
+            <button class="pass-btn" onclick="clicked()" id="pass-btn">Generate Passowrds</button>
+        </div>
+        <div class="password-screen">
+            <h4 id="line-el"></h4>
+        </div>
+        <div class="passwords">
+            <h4 id="copied1"></h4>
+            <h4 id="copied2"></h4>
+        </div>
+        <!-- <div class="copycontent">
+            <button class="copy-btn" onclick="copytext()" >Click For This 👆</button>
+            <button class="copy-btn" >Click For This 👆</button>
+        </div> -->
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
